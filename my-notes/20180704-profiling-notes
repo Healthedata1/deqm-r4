@@ -1,0 +1,25 @@
+profiling issues:
+
+1. practitioner and organization requirements not consistent:
+- Org has a must support on type, practitioner doesn't.  Should be consistent since the requirement/reason is the same?
+1. Unclear whether Location Profile is US-Core or Da Vinci
+1. Should US Core Encounter must support Location?
+1. for R4 submit tracker for us-ein namingsystem, for STU3 use OID
+1. Do we need an invariant to link the type to the url created just in case?
+1. Task MPR fix valueset to OID codesystem get more information. ( stubbed for now ) get codes and valueset.
+1. Is Task.context or Observation.context required? -this is where is the Encounter resource is referenced, but I don't see it and MeasureReport has a bunch of extra guidance on this which is confusing.?
+1. Missing  requirement for extension for Task or Observation Location
+1. What about Task/Observation Status Reason? - I thought we wanted that
+1. note that the slicing is not technically correct - will fix when details finalized.
+1. I made Coverage.beneficiary a must support if not then should leave it out and offer no requirement.
+1. For the generic MeasureReport, I think that limiting status to 'complete' is limiting the workflow options for the sender.  discuss further.  Can give guidance that when sending to payer it should be complete instead.
+1. For the generic MeasureReport,  I don't think we need the count element.  I am assuming will be 1.
+1. For the generic MeasureReport, I think the evaluated resource is only Observation or Task  - they or MeasureReport directly indirectly reference the other resources (practitioner, organization, encounter, coverage, patient).
+1. For Operation Outcome the only potential constraint would be a Must Support on the issue.detail element and a Davinci defined binding.
+1. for Observation I added a new category code 'administration' for these attestations.
+
+
+I udated the mrp resources graph
+and menu bar in the IG.
+
+link to latest IG build:  http://build.fhir.org/ig/Healthedata1/DaVinci/index.html

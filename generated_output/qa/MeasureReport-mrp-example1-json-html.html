@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+  <title>MeasureReport-mrp-example1-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport">resourceType</a>" : "MeasureReport",
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.id">id</a>" : "mrp-example1",
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: mrp-example1&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: complete&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: individual&lt;/p&gt;&lt;p&gt;&lt;b&gt;measure&lt;/b&gt;: MRP&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;Patient-example.html&quot;&gt;Patient/example&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: Jun 11, 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;reportingOrganization&lt;/b&gt;: &lt;a href=&quot;Organization-acme-lab.html&quot;&gt;Organization/acme-lab&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;period&lt;/b&gt;: Jun 11, 2018 12:00:00 AM --&amp;gt; Jul 11, 2018 12:00:00 AM&lt;/p&gt;&lt;p&gt;&lt;b&gt;evaluatedResources&lt;/b&gt;: &lt;/p&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.status">status</a>" : "complete",
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.type">type</a>" : "individual",
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.measure">measure</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.display">display</a>" : "MRP"
+  },
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.patient">patient</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "Patient/example"
+  },
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.date">date</a>" : "2018-06-11",
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.reportingOrganization">reportingOrganization</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "Organization/acme-lab"
+  },
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.period">period</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Period#Period.start">start</a>" : "2018-06-11",
+    "<a href="http://hl7.org/fhir/datatypes.html#Period#Period.end">end</a>" : "2018-07-11"
+  },
+  "<a href="http://hl7.org/fhir/measurereport.html#MeasureReport.evaluatedResources">evaluatedResources</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-referenceAny",
+        "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueReference</a>" : {
+          "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "Task/mrp-example1"
+        }
+      },
+      {
+        "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-referenceAny",
+        "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueReference</a>" : {
+          "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "Task/mrp-example1"
+        }
+      }
+    ]
+  }
+}</pre>
+</body>
+</html>

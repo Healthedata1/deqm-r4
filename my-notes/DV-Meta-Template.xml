@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<{Type} xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd%20-STU3/allergyintolerance.xsd">
+
+<!--********************meta*************************-->
+
+	<id value="{resource}-{qualifier}"/>
+	<url value="hl7.org/fhir/us/davinci-deqm/{Type}/{resource}-{qualifier}"/>
+	<version value="0.0.0"/>
+	<name value="Da Vinci  {Resource} {Qualifier} {Type}"/>
+	<status value="active"/>
+	<date value="{today}"/>
+	<publisher value="Da Vinci Project"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="https://github.com/Healthedata1/DaVinci"/>
+		</telecom>
+	</contact>
+	<description value="The Da Vinci  {Resource} {Qualifier} {Type} defines the constraints for ..."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States of America"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	
+	<!--********************end meta*************************-->
+</{Type}>

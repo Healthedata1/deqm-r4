@@ -1,0 +1,15 @@
+﻿{
+  "template-basic": {
+    "index": 0,
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/template-basic",
+    "name": "Template-basic",
+    "path": "StructureDefinition-template-basic.html",
+    "kind": "resource",
+    "type": "Basic",
+    "base": "http://hl7.org/fhir/StructureDefinition/Basic",
+    "basename": "Basic",
+    "basepath": "http://hl7.org/fhir/basic.html",
+    "status": "active",
+    "date": "Wed Feb 15 00:00:00 PST 2017"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ig",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Data Exchange For Quality Measures R4 Artifacts</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/davinci-deqm-r4/ImplementationGuide/ig</pre></div>"
+  },
+  "url": "http://hl7.org/fhir/us/davinci-deqm-r4/ImplementationGuide/ig",
+  "version": "0.0.0",
+  "name": "Data Exchange For Quality Measures R4 Artifacts",
+  "status": "draft",
+  "publisher": "DaVinci Project",
+  "copyright": "Used by permission of DaVinci Project, all rights reserved Creative Commons License",
+  "packageId": "hl7.fhir.davinci.deqm.r4",
+  "license": "CC0-1.0",
+  "fhirVersion": "3.4.0",
+  "definition": {
+    "package": [
+      {
+        "id": "template-profile-spreadsheet.xml",
+        "name": "Template-basic"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-blah-codes.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/blah-codes"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-template-basic.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/template-basic"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-blah-codes.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/blah-codes"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-template-basic.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/template-basic"
+        },
+        "name": "Template-basic",
+        "package": "template-profile-spreadsheet.xml"
+      }
+    ],
+    "page": {
+      "nameUrl": "index.md",
+      "title": "Data Exchange For Quality Measures R4 Artifacts Homepage",
+      "generation": "markdown"
+    }
+  }
+}

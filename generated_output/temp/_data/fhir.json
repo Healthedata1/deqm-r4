@@ -1,0 +1,29 @@
+﻿{
+  "path": "http://hl7.org/fhir",
+  "canonical": "http://hl7.org/fhir/us/davinci-deqm-r4",
+  "igId": "ig",
+  "igName": "Data Exchange For Quality Measures R4 Artifacts",
+  "igVer": "0.0.0",
+  "errorCount": 0,
+  "version": "3.4.0",
+  "revision": "14806",
+  "versionFull": "3.4.0-14806",
+  "toolingVersion": "3.4.0",
+  "toolingRevision": "13883",
+  "toolingVersionFull": "3.4.0-13883",
+  "totalFiles": 4,
+  "processedFiles": 139,
+  "genDate": "Tue, Aug 14, 2018 10:07-0700",
+  "ig": {
+    "id": "ig",
+    "name": "Data Exchange For Quality Measures R4 Artifacts",
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/ImplementationGuide/ig",
+    "version": "0.0.0",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "DaVinci Project",
+    "copyright": "Used by permission of DaVinci Project, all rights reserved Creative Commons License",
+    "fhirVersion": "3.4.0"
+  },
+  "deqm": "http://hl7.org/fhir/us/davinci-deqm"
+}

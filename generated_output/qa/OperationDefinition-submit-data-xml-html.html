@@ -1,0 +1,75 @@
+﻿<html>
+<head>
+  <title>OperationDefinition-submit-data-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition">OperationDefinition</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.id">id</a> <a href="http://hl7.org/fhir/datatypes.html#id">value</a>=&quot;submit-data&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Da Vinci Submit Measure Data OperationDefinition&lt;/h2&gt;&lt;p&gt;OPERATION: Da Vinci Submit Measure Data OperationDefinition&lt;/p&gt;&lt;p&gt;The official URL for this operation definition is: &lt;/p&gt;&lt;pre&gt;http://hl7.org/fhir/us/davinci-deqm/OperationDefinition/submit-data&lt;/pre&gt;&lt;div&gt;&lt;p&gt;The effect of invoking this operation on a &lt;code&gt;Measure&lt;/code&gt; instance endpoint is to POST a collection of resources needed for reporting a measure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Submit Measure Data operation POSTs the &lt;code&gt;MeasureReport&lt;/code&gt; and required associated resources to the payer's &lt;code&gt;Measure&lt;/code&gt; endpoint. The operation is for a single measure definition and a single patient or grouup.&lt;/li&gt;
+&lt;li&gt;The operation is posted to the measure instance endpoint represented by the resource target 'id' as shown in the example below.&lt;/li&gt;
+&lt;li&gt;When a payload is posted to one of these endpoits, the payer will process the data based on the the specific measure and return an OperationOutcome representing the acceptance or rejection of the report.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;p&gt;URL: [base]/resource/[id]/$submit-data&lt;/p&gt;&lt;p&gt;Parameters&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Use&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Cardinality&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Binding&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Documentation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IN&lt;/td&gt;&lt;td&gt;measure-report&lt;/td&gt;&lt;td&gt;1..1&lt;/td&gt;&lt;td&gt;Resource&lt;/td&gt;&lt;td/&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;The MeasureReport for the measure&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IN&lt;/td&gt;&lt;td&gt;resource&lt;/td&gt;&lt;td&gt;0..*&lt;/td&gt;&lt;td&gt;Resource&lt;/td&gt;&lt;td/&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Collection of required profiles for the measure&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div&gt;&lt;p&gt;Note: The required data for each Measure is discoverd by invoking the [Data Requirements] operation on the payer's &lt;code&gt;Measure/[measure-id]&lt;/code&gt; endpoint.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.url">url</a>
+       <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/davinci-deqm/OperationDefinition/submit-data&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.version">version</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;0.0.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Da Vinci Submit Measure Data OperationDefinition&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.kind">kind</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;operation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.date">date</a> <a href="http://hl7.org/fhir/datatypes.html#dateTime">value</a>=&quot;2018-06-30T00:00:00-07:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Da Vinci Project&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;https://github.com/Healthedata1/DaVinci&quot;/&gt;
+    &lt;/telecom&gt;
+  &lt;/contact&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.description">description</a>
+               <a href="http://hl7.org/fhir/datatypes.html#markdown">value</a>=&quot;The effect of invoking this operation on a `Measure` instance endpoint is to POST a collection of resources needed for reporting a measure. 
+  * The Submit Measure Data operation POSTs the `MeasureReport` and required associated resources to the payer&amp;#39;s `Measure` endpoint. The operation is for a single measure definition and a single patient or grouup. 
+  * The operation is posted to the measure instance endpoint represented by the resource target &amp;#39;id&amp;#39; as shown in the example below. 
+  * When a payload is posted to one of these endpoits, the payer will process the data based on the the specific measure and return an OperationOutcome representing the acceptance or rejection of the report.&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;US&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.idempotent">idempotent</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;submit-data&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.comment">comment</a>
+           <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Note: The required data for each Measure is discoverd by invoking the [Data Requirements] operation on the payer&amp;#39;s `Measure/[measure-id]` endpoint.&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.resource">resource</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;resource&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.type">type</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.instance">instance</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;measure-report&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.use">use</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;in&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.min">min</a> <a href="http://hl7.org/fhir/datatypes.html#integer">value</a>=&quot;1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.max">max</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.documentation">documentation</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;The MeasureReport for the measure&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.type">type</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;Resource&quot;/&gt;
+  &lt;/parameter&gt;
+  &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;resource&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.use">use</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;in&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.min">min</a> <a href="http://hl7.org/fhir/datatypes.html#integer">value</a>=&quot;0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.max">max</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.documentation">documentation</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Collection of required profiles for the measure&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/operationdefinition.html#OperationDefinition.parameter.type">type</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;Resource&quot;/&gt;
+  &lt;/parameter&gt;
+&lt;/OperationDefinition&gt;</pre>
+</body>
+</html>

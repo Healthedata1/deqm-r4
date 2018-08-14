@@ -1,0 +1,15 @@
+﻿<html>
+<head>
+  <title>OperationDefinition-mrp-requirements-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<div xmlns="http://www.w3.org/1999/xhtml"><h2>Option 1: Da Vinci  MRP Requirements OperationDefinition</h2><p>OPERATION: Option 1: Da Vinci  MRP Requirements OperationDefinition</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/us/davinci-deqm/OperationDefinition/mrp-requirements</pre><div><p>The MRP Requirements Operation returns a <code>Parameter</code> listing the set of required profiles needed to report and attest to the medication reconciliation post-discharge (MRP) requirements</p>
+</div><p>URL: [base]/Measure/[id]/$mrp-requirements</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>OUT</td><td>mrp-profile</td><td>0..*</td><td>code</td><td><a href="ValueSet-davinci-profiles.html">http://hl7.org/fhir/us/davinci-deqm/ValueSet/davinci-profiles</a> (Required)</td><td><div><p>Codes that represent the MRP profiles</p>
+</div></td></tr></table><div><ul>
+<li>The effect of invoking this operation on a <code>Measure\measure-mrp</code> instance endpoint is to determine the set of resources needed for reporting the MRP <code>Measure</code> when invoking either the <a href="todo.html"><code>$collect-data</code></a> or <a href="todo.html"><code>$submit-data</code></a> operations.</li>
+<li>The result is a <code>Parameter</code> resource listing the required resources (as codes)  <em>in addition to the MeasureReport which is always required</em>.</li>
+<li>Implementations SHOULD aggregate data requirements intelligently (i.e. by collapsing overlapping data requirements)</li>
+</ul>
+</div></div></body>
+</html>

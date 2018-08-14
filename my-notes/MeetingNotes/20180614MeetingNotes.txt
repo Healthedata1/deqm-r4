@@ -1,0 +1,37 @@
+DV =
+
+Design decisions:
+ focus on R3,  design for R4
+ use same stuff in R3
+
+ we not looked at the VS
+   requirement: MR slice needed for traceability
+
+Providers
+
+req: Need for coverage determination
+
+family
+
+req: Need for coverage determination
+
+Organization
+
+TIN, NPI
+req: Need for coverage determination
+req : type needed to assert to determine what code system represents consistently throughout resources.
+
+name/ telecom/ address:
+
+req: Need for coverage determination
+
+location
+
+name
+type  make VS binding req/extensible (req: to determine the environment where setting of service )
+
+address constrain to physical - want to know the actual location
+
+Need to look at option of PractitionerRole vs Practitioner  and where organization is represented
+
+Davinci  1 hr

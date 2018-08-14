@@ -1,0 +1,12 @@
+﻿<html>
+<head>
+  <title>OperationDefinition-measure-requirements-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<div xmlns="http://www.w3.org/1999/xhtml"><h2>Option 2: Da Vinci  Measure Requirements OperationDefinition</h2><p>OPERATION: Option 2: Da Vinci  Measure Requirements OperationDefinition</p><p>The official URL for this operation definition is: </p><pre>http://hl7.org/fhir/us/davinci-deqm/OperationDefinition/measure-requirements</pre><div><p>The measure-requirements operation aggregates and returns the parameters and data requirements for the measure definition and all its dependencies either as a single module definition <code>Library</code>.</p>
+</div><p>URL: [base]/Measure/[id]/$resource-requirements</p><p>Parameters</p><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>OUT</td><td>library</td><td>0..1</td><td>Library</td><td/><td><div><p>The result of the requirements gathering represented as a module-definition Library that describes the aggregate parameters, data requirements, and dependencies of the activity definition</p>
+</div></td></tr></table><div><p>The effect of invoking this operation on a <code>Measure</code> instance endpoint is to determine the aggregate set of resources requirements needed for reporting a <code>Measure</code> when invoking either the <a href="todo.html"><code>$collect-data</code></a> or <a href="todo.html"><code>$submit-data</code></a> operations. The result is <strong>either</strong> a <code>Library</code> resource listing the parameters and data requirements for the Meaure definition.</p>
+<p>Implementations SHOULD aggregate data requirements intelligently (i.e. by collapsing overlapping data requirements)</p>
+</div></div></body>
+</html>

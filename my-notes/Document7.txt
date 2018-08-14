@@ -1,0 +1,32 @@
+- A canonical url
+- At least one identifier
+- A  content version
+- A valid, machine-friendly name
+- A human-friendly title
+- The measure type
+- At least one population group with at least one population within it
+- The type of population criteria
+- A date the measure content was last changed
+- Publisher and contact information
+- Concise description of the measure content
+- A date the measure content was approved by the publisher
+- A date when the measure content was last reviewed
+- At least one library containing population criteria definitions for the measure
+- The scoring method used for the measure
+- The meaning of a higher score
+- 
+
+
+- A clear description of the purpose of the measure
+- Clinical usage notes for the measure
+- The period during which the measure content can be effectively applied
+- Clear indication of the expected contexts of use for the measure content
+- Intended jurisdictions for the measure content
+- Contributors to the measure content
+- Relevant topics for the measure content
+- Information on contributors to the measure content
+- Copyright information
+- Provide related information such as supporting evidence, citations, and documentation
+- A legal disclaimer relating to the use of the measure content
+- Stratification information if appropriate
+- Supplemental data where appropriate

@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+  <title>ValueSet-improvement-notation-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/datatypes.html#id">value</a>=&quot;improvement-notation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;improvement-notation&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Improvement notation for a measure (e.g. increase or decrease).&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=&quot;CodeSystem-improvement-notation.html&quot;&gt;&lt;code&gt;http://hl7.org/fhir/us/davinci-deqm/CodeSystem/improvement-notation&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.url">url</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/davinci-deqm/ValueSet/improvement-notation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;urn:oid:2.16.840.1.113883.4.642.3.0&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;0.0.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;improvement-notation&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM Improvement Notation Value Set&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.experimental">experimental</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/datatypes.html#dateTime">value</a>=&quot;2018-08-13T16:59:31-07:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Davinci Project&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/datatypes.html#markdown">value</a>=&quot;Improvement notation for a measure (e.g. increase or decrease).&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;US&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;United States of America&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.immutable">immutable</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.system">system</a>
+              <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/davinci-deqm/CodeSystem/improvement-notation&quot;/&gt;
+    &lt;/include&gt;
+  &lt;/compose&gt;
+&lt;/ValueSet&gt;</pre>
+</body>
+</html>

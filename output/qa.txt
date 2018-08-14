@@ -1,0 +1,71 @@
+﻿Data Exchange For Quality Measures R4 Artifacts : Validation Results
+=========================================
+
+err = 0, warn = 14, info = 2
+Generated Tue Aug 14 10:01:52 PDT 2018. FHIR version 3.4.0 for 3.4.0
+
+ Build Errors : 46 / 0
+ /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/CodeSystem-blah-codes : 0 / 2
+ /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/ValueSet-blah-codes : 0 / 2
+ /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/ig : 0 / 1
+ /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/template-profile-spreadsheet : 0 / 3
+</table>
+== n/a ==
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/capstatements.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/capstatements.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.xml.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.xml.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/div/div/div/div/hr/div/div/div/div/pre/span/a at Line 487, column 393: The link 'http://hl7.org/fhir/null.html' for "Language of the resource content" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/div/div/div/div/hr/div/div/div/div/pre/span/a at Line 493, column 447: The link 'http://hl7.org/fhir/null.html' for "Kind of Resource" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/div/div/div/div/hr/div/div/div/div/pre/span/a at Line 622, column 393: The link 'http://hl7.org/fhir/null.html' for "Language of the resource content" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.html#/html/head/body/div/div/div/div/div/div/hr/div/div/div/div/pre/span/a at Line 628, column 447: The link 'http://hl7.org/fhir/null.html' for "Kind of Resource" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/todo.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/todo.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/profiles.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/profiles.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic-mappings.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic-mappings.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.ttl.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.ttl.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.json.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic.json.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/a at Line 245, column 14: The link 'index.html#cat-facts-to-show-how-the-text-wraps-around-the-contents-block' for "Cat Facts (To Show How the Text Wraps around the Contents Block)" cannot be resolved (valid targets: [page-content-wrapper, segment-header, stripe, segment-footer, segment-post-footer, segment-navbar, project-status, introduction])
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/a at Line 246, column 14: The link 'index.html#jekyll-site-variables' for "Jekyll Site Variables" cannot be resolved (valid targets: [page-content-wrapper, segment-header, stripe, segment-footer, segment-post-footer, segment-navbar, project-status, introduction])
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/a at Line 248, column 14: The link 'index.html#more-stuff' for "More Stuff" cannot be resolved (valid targets: [page-content-wrapper, segment-header, stripe, segment-footer, segment-post-footer, segment-navbar, project-status, introduction])
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 249, column 18: The link 'index.html#and-more-stuff' for "And More Stuff" cannot be resolved (valid targets: [page-content-wrapper, segment-header, stripe, segment-footer, segment-post-footer, segment-navbar, project-status, introduction])
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/a at Line 254, column 10: The link 'guidance.html' for "General Guidance and Definitions" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/a at Line 255, column 10: The link 'guidance.html#introduction' for "Introduction" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/a at Line 256, column 10: The link 'guidance.html#more-stuff' for "More Stuff" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/toc.html#/html/head/body/div/div/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 257, column 14: The link 'guidance.html#and-more-stuff' for "And More Stuff" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/downloads.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/downloads.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/downloads.html#/html/head/body/div/div/div/div/div/div/ul/li/a at Line 268, column 8: The link 'full-ig.zip' for "Downloadable Copy" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/downloads.html#/html/head/body/div/div/div/div/div/div/ul/li/a at Line 276, column 8: The link 'registry.fhir.org.zip' for "Registry Source file" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/history.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/history.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/terminology.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/terminology.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/terminology.html#/html/head/body/div/div/div/div/div/div/li/a at Line 243, column 6: The link 'ValueSet-blah-codes.html' for "BlahCodes" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/terminology.html#/html/head/body/div/div/div/div/div/div/li/a at Line 248, column 6: The link 'CodeSystem-blah-codes.html' for "BlahCodes" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/index.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/index.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic-definitions.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 6: The link 'CapabilityStatement-server.html' for "Conformance requirements for Server" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/Davinci-R4/output/StructureDefinition-template-basic-definitions.html#/html/head/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 6: The link 'CapabilityStatement-client.html' for "Conformance requirements for Client" cannot be resolved
+ERROR: Implementation Guide: The link 'ValueSet-blah-codes.html' for "??" cannot be resolved
+ERROR: Implementation Guide: The link 'CodeSystem-blah-codes.html' for "??" cannot be resolved
+== /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/CodeSystem-blah-codes.xml ==
+WARNING: CodeSystem/blah-codes: CodeSystem: A resource should have narrative for robust management [text.div.exists()]
+WARNING: CodeSystem/blah-codes: CodeSystem.jurisdiction: Error null validating CodeableConcept
+== /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/ValueSet-blah-codes.xml ==
+WARNING: ValueSet/blah-codes: ValueSet: A resource should have narrative for robust management [text.div.exists()]
+WARNING: ValueSet/blah-codes: ValueSet.jurisdiction: Error null validating CodeableConcept
+== /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/ig.xml ==
+WARNING: ImplementationGuide/ig: ImplementationGuide: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/template-profile-spreadsheet.xml ==
+INFORMATION: /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/template-profile-spreadsheet: Resources generated by processing template-profile-spreadsheet:  http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/template-basic ("Template-basic")
+WARNING: StructureDefinition/template-basic: StructureDefinition: A resource should have narrative for robust management [text.div.exists()]
+WARNING: StructureDefinition/template-basic: StructureDefinition: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

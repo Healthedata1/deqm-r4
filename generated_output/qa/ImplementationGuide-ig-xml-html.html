@@ -1,0 +1,300 @@
+﻿<html>
+<head>
+  <title>ImplementationGuide-ig-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide">ImplementationGuide</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.id">id</a> <a href="http://hl7.org/fhir/datatypes.html#id">value</a>=&quot;ig&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Data Exchange For Quality Measures&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig&lt;/pre&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.url">url</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.version">version</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;0.0.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Data Exchange For Quality Measures&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.experimental">experimental</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DaVinci Project&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/datatypes.html#id">value</a>=&quot;3.0.1&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;p1&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;base&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-extension-measureSubscription.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/extension-measureSubscription&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-extension-referenceAny.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/extension-referenceAny&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;ValueSet-organization-type.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;ValueSet/organization-type&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;ValueSet-improvement-notation.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;ValueSet/improvement-notation&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-subscription-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/subscription-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-practitioner-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/practitioner-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-organization-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/organization-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-measurereport-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/measurereport-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-measure-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/measure-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-library-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/library-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-coverage-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/coverage-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;OperationDefinition-collect-data.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;OperationDefinition/collect-data&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;CodeSystem-improvement-notation.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;CodeSystem/improvement-notation&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;CapabilityStatement-server.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;CapabilityStatement/server&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;CapabilityStatement-client.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;CapabilityStatement/client&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-coverage-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Coverage Profile&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-coverage-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Coverage Profile&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/coverage-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-library-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-library-deqm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-library-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-library-deqm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/library-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-measure-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-measure-deqm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-measure-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-measure-deqm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/measure-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-measurereport-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-measurereport-deqm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-extension-referenceAny.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>
+            <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;A reference to any of resources used in the evaluation of a MeasureReport.&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/extension-referenceAny&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-measurereport-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-measurereport-deqm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/measurereport-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-organization-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Organization Profile&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-organization-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Organization Profile&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/organization-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-practitioner-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Practitioner Profile&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-practitioner-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM  Practitioner Profile&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/practitioner-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/datatypes.html#string">id</a>=&quot;profile-subcription-deqm-spreadsheet.xml&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-subscription-deqm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-extension-measureSubscription.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>
+            <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;The extension modifies the `criteria`  definiton to be a Measure instance id.&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/extension-measureSubscription&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;StructureDefinition-subscription-deqm.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;profile-subscription-deqm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;StructureDefinition/subscription-deqm&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+  &lt;/package&gt;
+  &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page">page</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.source">source</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;index.md&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.title">title</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Data Exchange For Quality Measures Homepage&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.kind">kind</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;page&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.page">page</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.source">source</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;_includes/toc.md&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.title">title</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Data Exchange For Quality Measures Table of Contents&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.kind">kind</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;page&quot;/&gt;
+    &lt;/page&gt;
+  &lt;/page&gt;
+&lt;/ImplementationGuide&gt;</pre>
+</body>
+</html>

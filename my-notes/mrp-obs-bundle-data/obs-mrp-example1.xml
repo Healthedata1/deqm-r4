@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd%20-STU3/allergyintolerance.xsd">
+	<id value="mrp-example1"/>
+		<extension url="hl7.org/fhir/us/davinci-deqm/StructureDefinition/ext-location">
+		<valueReference>
+			<reference value="Location/hl7east"/>
+		</valueReference>
+	</extension>
+	<meta>
+		<profile value="hl7.org/fhir/us/davinci-deqm/StructureDefinition/mrp-observation"/>
+	</meta>
+	<status value="final"/>
+	<category>
+		<text value="MRP"/>
+	</category>
+	<code>
+		<coding>
+			<system value="http://www.ama-assn.org/go/cpt"/>
+			<code value="1111F"/>
+			<display value="Medication Reconciliation"/>
+		</coding>
+		<text value="Medication Reconciliation"/>
+	</code>
+	<subject>
+		<reference value="Patient/example"/>
+		<display value="Amy Shaw"/>
+	</subject>
+	<effectiveDateTime value="2018-06-13"/>
+	<performer>
+			<extension url="hl7.org/fhir/us/davinci-deqm/StructureDefinition/ext-practiitionerRole">
+			<valueReference>
+				<reference value="PractitionerRole/example"/>
+			</valueReference>
+			</extension>
+	</performer>
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="255594003"/>
+			<display value="Complete (qualifier value)"/>
+		</coding>
+		<text value="Completed"></text>
+	</valueCodeableConcept>
+
+</Observation>

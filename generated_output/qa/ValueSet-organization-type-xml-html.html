@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+  <title>ValueSet-organization-type-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml">
+
+&lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/datatypes.html#id">value</a>=&quot;organization-type&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;organization-type&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Da Vinci Organization type codes limited to &lt;code&gt;TAX&lt;/code&gt; for Tax Identifier Number (TIN) and &lt;code&gt;PRN&lt;/code&gt; for National Provider identifer (NPI).&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0203&lt;/code&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TAX&lt;/td&gt;&lt;td&gt;Tax ID number&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PRN&lt;/td&gt;&lt;td&gt;Provider number&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.url">url</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/us/davinci-deqm/ValueSet/organization-type&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;0.0.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;organization-type&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;DEQM Organization Type Value Set&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.experimental">experimental</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/datatypes.html#dateTime">value</a>=&quot;2018-08-13T16:59:31-07:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Davinci Project&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/datatypes.html#markdown">value</a>=&quot;Da Vinci Organization type codes limited to `TAX` for Tax Identifier Number (TIN) and `PRN` for National Provider identifer (NPI).&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;US&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;United States of America&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.immutable">immutable</a> <a href="http://hl7.org/fhir/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;TAX&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Tax ID number&quot;/&gt;
+      &lt;/concept&gt;
+      &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/datatypes.html#code">value</a>=&quot;PRN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/datatypes.html#string">value</a>=&quot;Provider number&quot;/&gt;
+      &lt;/concept&gt;
+    &lt;/include&gt;
+  &lt;/compose&gt;
+&lt;/ValueSet&gt;</pre>
+</body>
+</html>

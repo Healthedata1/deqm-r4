@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+  <title>CodeSystem-observation-category-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem;
+  <a href="http://hl7.org/fhir/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/datatypes.html#id">fhir:value</a> &quot;observation-category&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Davinci Observation Category Codes&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Categories codes that classifies the observation for searching, sorting and display purposes when using &lt;code&gt;Observation&lt;/code&gt; for Da Vinci project reporting&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;This code system http://hl7.org/fhir/us/davinci-deqm/CodeSystem/observation-category defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;administrative&lt;a name=\&quot;observation-category-administrative\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Administrative&lt;/td&gt;&lt;td&gt;Pertaining to *non-clinical* activities related to an organization's or business' administration and management.  For example, medication reconciliation.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/us/davinci-deqm/CodeSystem/observation-category&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;0.0.0&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Davinci_Observation_Category_Codes&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.title">fhir:CodeSystem.title</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Davinci Observation Category Codes&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.experimental">fhir:CodeSystem.experimental</a> [ <a href="http://hl7.org/fhir/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://hl7.org/fhir/datatypes.html#dateTime">fhir:value</a> &quot;2018-06-24T00:00:00-07:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://hl7.org/fhir/datatypes.html#markdown">fhir:value</a> &quot;Categories codes that classifies the observation for searching, sorting and display purposes when using `Observation` for Da Vinci project reporting&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.jurisdiction">fhir:CodeSystem.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ];
+       <a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;US&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://hl7.org/fhir/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.valueSet">fhir:CodeSystem.valueSet</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/us/davinci-deqm/ValueSet/observation-category&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;complete&quot;];
+  <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
+     <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;administrative&quot; ];
+     <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Administrative&quot; ];
+     <a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Pertaining to *non-clinical* activities related to an organization's or business' administration and management.  For example, medication reconciliation.&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

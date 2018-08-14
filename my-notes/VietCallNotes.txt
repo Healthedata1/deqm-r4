@@ -1,0 +1,39 @@
+30 day med reconciliation  Viet
+
+crd - coverage recovery discovery?  Dieterle
+
+distinct from prior auth (x12)
+put in data reqs - tells more information needed by information.
+ reduce overhead
+get patient Information
+
+based on hedis measurements
+
+what docs needed.
+
++ 7 modifierExtension
+
+Process:
+
+gather team, build out reqs and DE  and gap analysis with R4
+
+1/2 develop FHIR artifacts write ig
+1/2 develop ref application, test beds
+
+roles tehnical directory roled, BD - budget and contracting,lead for CRD,  Jocylyn Keegan  Program Manager Point of Care partners  ( may be contractors ),  Lenel - Facilitator.
+
+needs PM, coders, etc, authoring role/publishing, domain expertise
+
+Budget staffing.
+
+Bring payors to table ....
+
+timeline:
+
+30 day small and fast 4 month timeline.
+launch date + ftf in c cleveland + devdays
+1-3 calls/week.
+
+CRD 6 month.
+
+quoted $200/month

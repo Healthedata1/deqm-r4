@@ -1,0 +1,22 @@
+DV notes:
+
+Describe how to make a guide Demo/YouTube.
+reconcile templates with Lloyd
+check out Lantana tool
+
+add slicing to US-Core Patient identifier for plan/subscriber/member identifier
+   with note that may not be unique to patient.
+
+using only argonaut and us-core
+
+ vs in coverage where it belongs.  recommend putting all stuff in extensions that will moved to other resources in subsequent versions ( or same version )
+
+supporting 4 Versions!!!
+
+
+
+Not flexible to EHR.
+
+procedureorder/procedure is a hack  - use Task (Order/OrderResponse and Attest on MedStatements with Provenance or a meta tag when all Medstatements attested then Task is complet
+
+O

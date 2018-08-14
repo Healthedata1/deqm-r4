@@ -1,0 +1,101 @@
+﻿<html>
+<head>
+  <title>CodeSystem-davinci-profiles-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.id">id</a>" : "davinci-profiles",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Davinci Profiles&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Codes that represent the Da Vinci project set of profiles.  The concept codes are equivalent to the StructureDefinition.id, the Display to the StructureDefinition. element and the defiinition are from the StructureDefinition.description&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;This code system http://hl7.org/fhir/us/davinci-deqm/CodeSystem/davinci-profiles defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;coverage-davinci&lt;a name=&quot;davinci-profiles-coverage-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Coverage Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Coverage Profile defines the constraints for representing the coverage where the Medication Reconciliation records are kept.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;location-davinci&lt;a name=&quot;davinci-profiles-location-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Location Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Location Profile defines the constraints for representing the coverage id.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;measurereport-mrp&lt;a name=&quot;davinci-profiles-measurereport-mrp&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci MeasureReport MRP Profile&lt;/td&gt;&lt;td&gt;The Da Vinci MeasureReport MRP Profile is based on the Da Vinci MeasureReport Profile and constrains the `measure` element to medication reconciliation post-discharge and the `evaluatedResources` element to Task or Observation profiles.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;measurereport-davinci&lt;a name=&quot;davinci-profiles-measurereport-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci MeasureReport Profile&lt;/td&gt;&lt;td&gt;The Da Vinci MeasureReport Profile.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;organization-davinci&lt;a name=&quot;davinci-profiles-organization-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Organization Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Organization Profile defines the constraints for representing the organization whch is responsible for the Medication Reconciliation.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;patient-davinci&lt;a name=&quot;davinci-profiles-patient-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Patient Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Patient Profile defines the constraints for representing a patient who is the subject of a Medication Reconciliation.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;practitioner-davinci&lt;a name=&quot;davinci-profiles-practitioner-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Practitioner Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Practitioner Profile defines the constraints for representing the practitioner who is responsible for the Medication Reconciliation.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;practitionerrole-davinci&lt;a name=&quot;davinci-profiles-practitionerrole-davinci&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci PractitionerRole Profile&lt;/td&gt;&lt;td&gt;The Da Vinci PractitionerRole Profile defines the constraints for representing the role which is responsible for the Medication Reconciliation.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;observation-mrp&lt;a name=&quot;davinci-profiles-observation-mrp&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Observation MRP Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Observation MRP Profile is based upon the Da Vinci Observation Measure Profile and constrains the code(s) for representing the medication reconciliation post-discharge.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;observation-measure&lt;a name=&quot;davinci-profiles-observation-measure&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Observation Measure Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Observation Measure Profile defines the constraints for representing the completion of a quality measure.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;task-mrp&lt;a name=&quot;davinci-profiles-task-mrp&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Task MRP Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Task MRP Profile is based upon the Da Vinci Task Measure Profile and constrains the code(s) for representing the medication reconciliation post-discharge.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;task-measure&lt;a name=&quot;davinci-profiles-task-measure&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Da Vinci Task Measure Profile&lt;/td&gt;&lt;td&gt;The Da Vinci Task Measure Profile defines the constraints for representing the completion of a provider quality measure.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.url">url</a>" : "http://hl7.org/fhir/us/davinci-deqm/CodeSystem/davinci-profiles",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.version">version</a>" : "0.0.0",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.name">name</a>" : "Davinci_Profiles",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.title">title</a>" : "Davinci Profiles",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.date">date</a>" : "2018-06-24T00:00:00-07:00",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.description">description</a>" : "Codes that represent the Da Vinci project set of profiles.  The concept codes are equivalent to the StructureDefinition.id, the Display to the StructureDefinition. element and the defiinition are from the StructureDefinition.description",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">code</a>" : "US"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.valueSet">valueSet</a>" : "http://hl7.org/fhir/us/davinci-deqm/ValueSet/davinci-profiles",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "coverage-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Coverage Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Coverage Profile defines the constraints for representing the coverage where the Medication Reconciliation records are kept."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "location-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Location Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Location Profile defines the constraints for representing the coverage id."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "measurereport-mrp",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci MeasureReport MRP Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci MeasureReport MRP Profile is based on the Da Vinci MeasureReport Profile and constrains the `measure` element to medication reconciliation post-discharge and the `evaluatedResources` element to Task or Observation profiles."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "measurereport-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci MeasureReport Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci MeasureReport Profile."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "organization-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Organization Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Organization Profile defines the constraints for representing the organization whch is responsible for the Medication Reconciliation."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "patient-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Patient Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Patient Profile defines the constraints for representing a patient who is the subject of a Medication Reconciliation."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "practitioner-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Practitioner Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Practitioner Profile defines the constraints for representing the practitioner who is responsible for the Medication Reconciliation."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "practitionerrole-davinci",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci PractitionerRole Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci PractitionerRole Profile defines the constraints for representing the role which is responsible for the Medication Reconciliation."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "observation-mrp",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Observation MRP Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Observation MRP Profile is based upon the Da Vinci Observation Measure Profile and constrains the code(s) for representing the medication reconciliation post-discharge."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "observation-measure",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Observation Measure Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Observation Measure Profile defines the constraints for representing the completion of a quality measure."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "task-mrp",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Task MRP Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Task MRP Profile is based upon the Da Vinci Task Measure Profile and constrains the code(s) for representing the medication reconciliation post-discharge."
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "task-measure",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Da Vinci Task Measure Profile",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "The Da Vinci Task Measure Profile defines the constraints for representing the completion of a provider quality measure."
+    }
+  ]
+}</pre>
+</body>
+</html>

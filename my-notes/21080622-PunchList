@@ -1,0 +1,59 @@
+Davinci MRP Profiles Issues and Punch List:
+
+IG Link:  http://build.fhir.org/ig/Healthedata1/DaVinci/guidance.html
+
+TODO:
+  Introductions
+  Requirements for each constraints
+  Examples
+  Profile/extension names to be cleaned up
+  Need both a generic profile and MRP specific profile:
+   MeasureReport
+   Observation
+   Task
+
+task-measure - drafted
+  code (see Observation too) value set to include cpt & snomed measure codes - need to define these codes
+  fix xpath2 for invariant - ask Lloyd
+  create value set for statusReason ( if no status then why ) discuss whether this should be text only
+
+task-mrp - drafted
+  this just fixes the binding for the code
+
+observation-measure - drafted
+  code value set to include cpt & snomed measure code ( need to get codes )
+  review  Observation.value codes
+  if no status then dataAbsentReason should - this could be text only or could require text too.
+
+observation-mrp
+    this just fixes the binding for the code
+
+davinci-MeasureReport - drafted
+  - general profile
+  - change measure to reference canonical urls
+  - What is the scope of using MeasureReport - i.e., 'just' for quality measures? ( vs Scope of DaVinci - reimbursement beyond Quality measures?
+
+measurereport-MRP
+   this just fixes the measure to mrp canonical url and referenceresources to Task and Observation measure profiles
+
+Measure - ...todo...
+  - do we need to a profile or simply point to Hedis IG?
+
+Patient -drafted
+
+PractitionerRole - used US Core to start3
+
+Practitioner - drafted
+ - using 'PRN' for type check if this code is appropriate - discuss  - other option is to create own code)
+
+Organization - drafted
+ - technically the slicing needs to be fixed)
+
+Location - drafted
+  - question: managingOrganization - this may not the same as org and not how you would get to the org you want.  use measureReport to get it (see the graph).
+
+Coverage  - ...todo...
+  - use: http://www.fhir.org/guides/argonaut/scheduling/StructureDefinition-argo-coverage.html to start
+
+
+ 

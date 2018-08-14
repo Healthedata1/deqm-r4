@@ -1,0 +1,374 @@
+﻿<html>
+<head>
+  <title>ImplementationGuide-ig-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide">resourceType</a>" : "ImplementationGuide",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.id">id</a>" : "ig",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Data Exchange For Quality Measures&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig&lt;/pre&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.url">url</a>" : "http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/ig",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.version">version</a>" : "0.0.0",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.name">name</a>" : "Data Exchange For Quality Measures",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.experimental">experimental</a>" : true,
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.publisher">publisher</a>" : "DaVinci Project",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a>" : "3.0.1",
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package">package</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "p1",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "base",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-extension-measureSubscription.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/extension-measureSubscription"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-extension-referenceAny.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/extension-referenceAny"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-organization-type.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/organization-type"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-improvement-notation.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/improvement-notation"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-subscription-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/subscription-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-practitioner-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/practitioner-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-organization-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/organization-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-measurereport-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/measurereport-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-measure-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/measure-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-library-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/library-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-coverage-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/coverage-deqm"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "OperationDefinition-collect-data.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "OperationDefinition/collect-data"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-improvement-notation.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/improvement-notation"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CapabilityStatement-server.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "CapabilityStatement/server"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CapabilityStatement-client.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "CapabilityStatement/client"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-coverage-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "DEQM  Coverage Profile",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-coverage-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "DEQM  Coverage Profile",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/coverage-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-library-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "profile-library-deqm",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-library-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "profile-library-deqm",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/library-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-measure-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "profile-measure-deqm",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-measure-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "profile-measure-deqm",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/measure-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-measurereport-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "profile-measurereport-deqm",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-extension-referenceAny.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "A reference to any of resources used in the evaluation of a MeasureReport.",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/extension-referenceAny"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-measurereport-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "profile-measurereport-deqm",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/measurereport-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-organization-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "DEQM  Organization Profile",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-organization-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "DEQM  Organization Profile",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/organization-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-practitioner-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "DEQM  Practitioner Profile",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-practitioner-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "DEQM  Practitioner Profile",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/practitioner-deqm"
+          }
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.id">id</a>" : "profile-subcription-deqm-spreadsheet.xml",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.name">name</a>" : "profile-subscription-deqm",
+      "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-extension-measureSubscription.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "The extension modifies the `criteria`  definiton to be a Measure instance id.",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/extension-measureSubscription"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "StructureDefinition-subscription-deqm.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.name">name</a>" : "profile-subscription-deqm",
+          "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/datatypes.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/subscription-deqm"
+          }
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page">page</a>" : {
+    "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.source">source</a>" : "index.md",
+    "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.title">title</a>" : "Data Exchange For Quality Measures Homepage",
+    "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.kind">kind</a>" : "page",
+    "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.page">page</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.source">source</a>" : "_includes/toc.md",
+        "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.title">title</a>" : "Data Exchange For Quality Measures Table of Contents",
+        "<a href="http://hl7.org/fhir/implementationguide.html#ImplementationGuide.page.kind">kind</a>" : "page"
+      }
+    ]
+  }
+}</pre>
+</body>
+</html>

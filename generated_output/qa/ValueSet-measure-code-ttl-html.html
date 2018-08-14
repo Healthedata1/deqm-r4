@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+  <title>ValueSet-measure-code-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ValueSet;
+  <a href="http://hl7.org/fhir/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/datatypes.html#id">fhir:value</a> &quot;measure-code&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Da Vinci Measure Code Values&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Quality measure codes for reporting measures to payers.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; This Content is created by the Da Vinci project and HL7.  No copyright acknowledgement is needed, nor are there any license terms to adhere to&lt;/p&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;http://www.ama-assn.org/go/cpt&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1111F&lt;/td&gt;&lt;td&gt;Medication Reconciliation&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/us/davinci-deqm/ValueSet/measure-code&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;0.0.0&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Da Vinci Measure Code Values&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Da Vinci Measure Code Values&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/datatypes.html#dateTime">fhir:value</a> &quot;2018-06-19T00:00:00-07:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/datatypes.html#markdown">fhir:value</a> &quot;Quality measure codes for reporting measures to payers.&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.jurisdiction">fhir:ValueSet.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ];
+       <a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;US&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.copyright">fhir:ValueSet.copyright</a> [ <a href="http://hl7.org/fhir/datatypes.html#markdown">fhir:value</a> &quot;This Content is created by the Da Vinci project and HL7.  No copyright acknowledgement is needed, nor are there any license terms to adhere to&quot;];
+  <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/datatypes.html#uri">fhir:value</a> &quot;http://www.ama-assn.org/go/cpt&quot; ];
+       <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/datatypes.html#code">fhir:value</a> &quot;1111F&quot; ];
+         <a href="http://hl7.org/fhir/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/datatypes.html#string">fhir:value</a> &quot;Medication Reconciliation&quot; ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

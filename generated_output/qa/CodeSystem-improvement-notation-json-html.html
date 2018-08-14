@@ -1,0 +1,64 @@
+﻿<html>
+<head>
+  <title>CodeSystem-improvement-notation-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.id">id</a>" : "improvement-notation",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;MeasureImprovementNotation&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Improvement notation for a measure (e.g. increase or decrease)&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;This code system http://hl7.org/fhir/us/davinci-deqm/CodeSystem/improvement-notation defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;increase&lt;a name=&quot;improvement-notation-increase&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Increase&lt;/td&gt;&lt;td&gt;Improvement is notated as an *increase* in the measure score&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;decrease&lt;a name=&quot;improvement-notation-decrease&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Decrease&lt;/td&gt;&lt;td&gt;Improvement is notated as a *decrease* in the measure score&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.url">url</a>" : "http://hl7.org/fhir/us/davinci-deqm/CodeSystem/improvement-notation",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.version">version</a>" : "0.0.0",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.name">name</a>" : "MeasureImprovementNotation",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.date">date</a>" : "2018-08-13T20:24:35-07:00",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.publisher">publisher</a>" : "The Da Vinci Project",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url"
+        },
+        {
+          "<a href="http://hl7.org/fhir/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.description">description</a>" : "Improvement notation for a measure (e.g. increase or decrease)",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.code">code</a>" : "US",
+          "<a href="http://hl7.org/fhir/datatypes.html#Coding#Coding.display">display</a>" : "United States of America"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.valueSet">valueSet</a>" : "http://hl7.org/fhir/us/davinci-deqm/ValueSet/improvement-notation",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "increase",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Increase",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Improvement is notated as an *increase* in the measure score"
+    },
+    {
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.code">code</a>" : "decrease",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.display">display</a>" : "Decrease",
+      "<a href="http://hl7.org/fhir/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Improvement is notated as a *decrease* in the measure score"
+    }
+  ]
+}</pre>
+</body>
+</html>
