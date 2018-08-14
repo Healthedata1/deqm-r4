@@ -2,7 +2,7 @@
 =========================================
 
 err = 0, warn = 14, info = 2
-Generated Tue Aug 14 10:08:14 PDT 2018. FHIR version 3.4.0 for 3.4.0
+Generated Tue Aug 14 10:25:06 PDT 2018. FHIR version 3.4.0 for 3.4.0
 
  Build Errors : 46 / 0
  /Users/ehaas/Documents/FHIR/Davinci-R4/source/resources/CodeSystem-blah-codes : 0 / 2
