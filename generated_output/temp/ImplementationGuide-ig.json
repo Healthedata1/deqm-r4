@@ -17,8 +17,20 @@
   "definition": {
     "package": [
       {
-        "id": "template-profile-spreadsheet.xml",
-        "name": "Template-basic"
+        "id": "profile-library-deqm-spreadsheet.xml",
+        "name": "profile-library-deqm"
+      },
+      {
+        "id": "profile-measure-deqm-spreadsheet.xml",
+        "name": "profile-measure-deqm"
+      },
+      {
+        "id": "profile-measurereport-deqm-spreadsheet.xml",
+        "name": "profile-measurereport-deqm"
+      },
+      {
+        "id": "profile-subcription-deqm-spreadsheet.xml",
+        "name": "profile-subscription-deqm"
       }
     ],
     "resource": [
@@ -26,11 +38,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-blah-codes.html"
+            "valueUri": "StructureDefinition-extension-measureSubscription.html"
           }
         ],
         "reference": {
-          "reference": "ValueSet/blah-codes"
+          "reference": "StructureDefinition/extension-measureSubscription"
         },
         "exampleBoolean": false
       },
@@ -38,11 +50,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-template-basic.html"
+            "valueUri": "StructureDefinition-subscription-deqm.html"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/template-basic"
+          "reference": "StructureDefinition/subscription-deqm"
         },
         "exampleBoolean": false
       },
@@ -50,11 +62,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-blah-codes.html"
+            "valueUri": "StructureDefinition-measurereport-deqm.html"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/blah-codes"
+          "reference": "StructureDefinition/measurereport-deqm"
         },
         "exampleBoolean": false
       },
@@ -62,14 +74,114 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-template-basic.html"
+            "valueUri": "StructureDefinition-measure-deqm.html"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/template-basic"
+          "reference": "StructureDefinition/measure-deqm"
         },
-        "name": "Template-basic",
-        "package": "template-profile-spreadsheet.xml"
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-library-deqm.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/library-deqm"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-server.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/server"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-client.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/client"
+        },
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-library-deqm.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/library-deqm"
+        },
+        "name": "profile-library-deqm",
+        "package": "profile-library-deqm-spreadsheet.xml"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-measure-deqm.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/measure-deqm"
+        },
+        "name": "profile-measure-deqm",
+        "package": "profile-measure-deqm-spreadsheet.xml"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-measurereport-deqm.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/measurereport-deqm"
+        },
+        "name": "profile-measurereport-deqm",
+        "package": "profile-measurereport-deqm-spreadsheet.xml"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-extension-measureSubscription.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/extension-measureSubscription"
+        },
+        "name": "The extension modifies the `criteria`  definiton to be a Measure instance id.",
+        "package": "profile-subcription-deqm-spreadsheet.xml"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-subscription-deqm.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/subscription-deqm"
+        },
+        "name": "profile-subscription-deqm",
+        "package": "profile-subcription-deqm-spreadsheet.xml"
       }
     ],
     "page": {

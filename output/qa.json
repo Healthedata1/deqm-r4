@@ -3,10 +3,10 @@
   "name": "Data Exchange For Quality Measures R4 Artifacts",
   "package-id": "hl7.fhir.davinci.deqm.r4",
   "ig-ver": "0.0.0",
-  "date": "Tue, 14 Aug, 2018 10:01:33 -0700",
+  "date": "Thu, 16 Aug, 2018 11:00:54 -0700",
   "errs": 0,
-  "warnings": 14,
-  "hints": 2,
+  "warnings": 22,
+  "hints": 8,
   "version": "3.4.0",
-  "tool": "3.4.0-13883"
+  "tool": "3.4.0-14789"
 }

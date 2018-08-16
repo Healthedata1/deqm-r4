@@ -1,15 +1,82 @@
 ﻿{
-  "template-basic": {
+  "library-deqm": {
     "index": 0,
-    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/template-basic",
-    "name": "Template-basic",
-    "path": "StructureDefinition-template-basic.html",
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/library-deqm",
+    "name": "profile-library-deqm",
+    "path": "StructureDefinition-library-deqm.html",
     "kind": "resource",
-    "type": "Basic",
-    "base": "http://hl7.org/fhir/StructureDefinition/Basic",
-    "basename": "Basic",
-    "basepath": "http://hl7.org/fhir/basic.html",
+    "type": "Library",
+    "base": "http://hl7.org/fhir/StructureDefinition/Library",
+    "basename": "Library",
+    "basepath": "http://build.fhir.org/library.html",
     "status": "active",
-    "date": "Wed Feb 15 00:00:00 PST 2017"
+    "date": "Tue Jun 19 00:00:00 PDT 2018",
+    "publisher": "Da Vinci Project",
+    "description": "The DEQM Library Profile describes a shareable, published library resource that can be used to share clinical knowledge"
+  },
+  "measure-deqm": {
+    "index": 1,
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/measure-deqm",
+    "name": "profile-measure-deqm",
+    "path": "StructureDefinition-measure-deqm.html",
+    "kind": "resource",
+    "type": "Measure",
+    "base": "http://hl7.org/fhir/StructureDefinition/Measure",
+    "basename": "Measure",
+    "basepath": "http://build.fhir.org/measure.html",
+    "status": "active",
+    "date": "Tue Jun 19 00:00:00 PDT 2018",
+    "publisher": "Da Vinci Project",
+    "description": "The DEQM Measure Profile describes a shareable, published measure resource that can be used to define an electronic clinical quality measure"
+  },
+  "measurereport-deqm": {
+    "index": 2,
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/measurereport-deqm",
+    "name": "profile-measurereport-deqm",
+    "path": "StructureDefinition-measurereport-deqm.html",
+    "kind": "resource",
+    "type": "MeasureReport",
+    "base": "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "basename": "MeasureReport",
+    "basepath": "http://build.fhir.org/measurereport.html",
+    "status": "active",
+    "date": "Tue Jun 19 00:00:00 PDT 2018",
+    "publisher": "Da Vinci Project",
+    "description": "The DEQM MeasureReport Profile represents the quality measure results that  the practitioner\u0027s organization convey to the payer.  It contains the references to other profiles  needed to attest to the measure."
+  },
+  "extension-measureSubscription": {
+    "index": 3,
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/extension-measureSubscription",
+    "name": "The extension modifies the `criteria`  definiton to be a Measure instance id.",
+    "path": "StructureDefinition-extension-measureSubscription.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://build.fhir.org/datatypes.html#Extension",
+    "status": "active",
+    "date": "Tue Jun 19 00:00:00 PDT 2018",
+    "publisher": "Da Vinci Project",
+    "description": "The extension modifies the `criteria`  definiton to be a Measure instance id.",
+    "contexts": [
+      {
+        "type": "Subscription"
+      }
+    ]
+  },
+  "subscription-deqm": {
+    "index": 4,
+    "url": "http://hl7.org/fhir/us/davinci-deqm-r4/StructureDefinition/subscription-deqm",
+    "name": "profile-subscription-deqm",
+    "path": "StructureDefinition-subscription-deqm.html",
+    "kind": "resource",
+    "type": "Subscription",
+    "base": "http://hl7.org/fhir/StructureDefinition/Subscription",
+    "basename": "Subscription",
+    "basepath": "http://build.fhir.org/subscription.html",
+    "status": "active",
+    "date": "Tue Jun 19 00:00:00 PDT 2018",
+    "publisher": "Da Vinci Project",
+    "description": "The DEQM Subscription Profile is defined for sending notifications to a subscriber (Aggregator) when a Provider system has determined the DEQM Measure data is ready as is  described in the  exchange of quality measure data [option 3](guidance.html#option-3-subscription-service-combined-with-the--collect-data-operation)."
   }
 }

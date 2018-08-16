@@ -15,45 +15,130 @@
   <license value="CC0-1.0"/>
   <fhirVersion value="3.4.0"/>
   <definition>
-    <package id="template-profile-spreadsheet.xml">
-      <name value="Template-basic"/>
+    <package id="profile-library-deqm-spreadsheet.xml">
+      <name value="profile-library-deqm"/>
+    </package>
+    <package id="profile-measure-deqm-spreadsheet.xml">
+      <name value="profile-measure-deqm"/>
+    </package>
+    <package id="profile-measurereport-deqm-spreadsheet.xml">
+      <name value="profile-measurereport-deqm"/>
+    </package>
+    <package id="profile-subcription-deqm-spreadsheet.xml">
+      <name value="profile-subscription-deqm"/>
     </package>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-blah-codes.html"/>
+        <valueUri value="StructureDefinition-extension-measureSubscription.html"/>
       </extension>
       <reference>
-        <reference value="ValueSet/blah-codes"/>
+        <reference value="StructureDefinition/extension-measureSubscription"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-template-basic.html"/>
+        <valueUri value="StructureDefinition-subscription-deqm.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/template-basic"/>
+        <reference value="StructureDefinition/subscription-deqm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-blah-codes.html"/>
+        <valueUri value="StructureDefinition-measurereport-deqm.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/blah-codes"/>
+        <reference value="StructureDefinition/measurereport-deqm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-template-basic.html"/>
+        <valueUri value="StructureDefinition-measure-deqm.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/template-basic"/>
+        <reference value="StructureDefinition/measure-deqm"/>
       </reference>
-      <name value="Template-basic"/>
-      <package value="template-profile-spreadsheet.xml"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-library-deqm.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/library-deqm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CapabilityStatement-server.html"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/server"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CapabilityStatement-client.html"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/client"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-library-deqm.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/library-deqm"/>
+      </reference>
+      <name value="profile-library-deqm"/>
+      <package value="profile-library-deqm-spreadsheet.xml"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-measure-deqm.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/measure-deqm"/>
+      </reference>
+      <name value="profile-measure-deqm"/>
+      <package value="profile-measure-deqm-spreadsheet.xml"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-measurereport-deqm.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/measurereport-deqm"/>
+      </reference>
+      <name value="profile-measurereport-deqm"/>
+      <package value="profile-measurereport-deqm-spreadsheet.xml"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-extension-measureSubscription.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/extension-measureSubscription"/>
+      </reference>
+      <name value="The extension modifies the `criteria`  definiton to be a Measure instance id."/>
+      <package value="profile-subcription-deqm-spreadsheet.xml"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-subscription-deqm.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/subscription-deqm"/>
+      </reference>
+      <name value="profile-subscription-deqm"/>
+      <package value="profile-subcription-deqm-spreadsheet.xml"/>
     </resource>
     <page>
       <nameUrl value="index.md"/>
